@@ -1,0 +1,44 @@
+body{
+    margin:2px ;
+}
+.a{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a > div{
+    background-color: aqua;
+    color: brown;
+height: 20px;
+width: 4opx;
+border: 4px dotted black;
+border-radius: 50%;
+margin: 5px;
+text-align: center;
+font-weight: 200em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@keyframes expand{
+    from{
+        transform:rotateY(360deg) ;
+     color: rgb(245, 5, 145);
+        height: 100px;
+        width: 200px;
+    }
+   
+    to{
+        
+color: blue;
+        height: 200px;
+        width: 400px;
+    }
+    }
+.b{
+    animation: expand 5s ease-out 5s infinite;
+    color:  red;
+}
